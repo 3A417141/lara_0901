@@ -32,4 +32,9 @@ public function update(Request $request,$id)
     $post->update($request->all());
     return redirect()->route('admin.posts.index');
 }
-}
+public function store(Request $request){
+        Post::create($request->all());
+        return redirect()->route('admin.posts.index');
+    }
+
+ }

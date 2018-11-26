@@ -36,10 +36,12 @@
                 <label>標題：</label>
                 <input name="title" class="form-control" placeholder="請輸入文章標題">
             </div>
+
             <div class="form-group">
                 <label>內容：</label>
                 <textarea name="content" class="form-control" rows="10"></textarea>
             </div>
+
             <div class="form-group">
                 <label>精選？</label>
                 <select name="is_feature" class="form-control">
@@ -47,9 +49,15 @@
                     <option value="1">是</option>
                 </select>
             </div>
+
             <div class="text-right">
                 <button type="submit" class="btn btn-success">新增</button>
             </div>
+        </form>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
         </form>
     </div>
 </div>
